@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.display {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #000066, #6699FF);
+  color: #fff;
+  text-align: center;
+}
+
+.search {
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 45px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 80%;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 90px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 15px;
+  margin: 6px
+}
+
+.forcast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  
+  margin-top: 50px;
+}
+
+.region-name h1{
+  font-size: 70px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.details h2 {
+  font-size: 50px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.additional-weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.humidity-display img, .wind-display img {
+  margin-bottom: 30px;
+}
+
+.forcast-display {
+  display: none;
+}

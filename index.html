@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Weather App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="display">
+    <div class="search">
+      <input type="text" class="search-city" placeholder="City" spellcheck="false">
+      <button><img src="./images/search.png" alt="search icon"></button>
+    </div>
+    <div class="forcast-display">
+      <div class="forcast">
+        <div class="region-name">
+          <h1 class="city">London, United Kingdom</h1>
+        </div>
+        <div class="details">
+          <div class="weather">
+            <img src="images/rain.png" alt="rain icon" class="weather-icon">
+            <h2><span class="temp">22</span>°C</h2>
+            <h3>Feels like <span class="experience">10</span>°C</h3>
+          </div>
+          <div class="additional-weather-details">
+            <div class="humidity-display">
+              <img src="images/humidity.png" alt="">
+              <div>
+                <p><span class="humidity">50</span>%</p>
+                <p>humidity</p>
+              </div>
+            </div>
+            <div class="wind-display">
+              <img src="images/wind.png" alt="">
+              <div>
+                <p><span class="wind-speed">15</span> km/h</p>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  <script src="weather.js"></script>
+</body>
+</html>
